@@ -20,4 +20,7 @@ inside_out = media.Movie("Inside out", "Inside Out a comedy-adventure set inside
 #avatar.show_trailer()
 
 movies = [toy_story,avatar,inside_out]
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+#print(media.Movie.VALID_RATINGS)
+print(media.Movie.__name__)
+print(media.Movie.__module__)
