@@ -6,7 +6,7 @@ this was build with the help of python classes using object-oriented Python then
 
 ## Why this Project?
 
-was build to establish a foundation in core programming concepts using Python and understand the role a simple web server has in receiving a request, executing a block of code and generating a response
+This project was build to establish a foundation in core programming concepts using Python and understand the role a simple web server has in receiving a request, executing a block of code and generating a response
 
 # Quickstart
 ### Requirements
@@ -32,4 +32,4 @@ python entertainment_center.py
 go to entertainment_center.py file and there update the list of avalible movies with your favorate one .
 
 ### Notes
-make sure to have fun 
+make sure to have fun 😀
