@@ -22,7 +22,7 @@ main_page_head = '''
             min-height: 100vh;
             font: normal 16px sans-serif;
         }
-        
+
         .gallery-container h1 {
             text-align: center;
             margin-top: 70px;
@@ -157,18 +157,13 @@ main_page_content = '''
     </div>
 
     <!-- Main Page Content -->
-    <div class="container">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container gallery-container">
+        <h1>My Favorite Movies Gallery</h1>
+        <p class="page-description text-center">A Gallery with all of my favorate movies and thier trailers</p>
         <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
-          </div>
+          {movie_tiles}
         </div>
-      </div>
-    </div>
-    <div class="container">
-      {movie_tiles}
-    </div>
+    </div>    
   </body>
 </html>
 '''
