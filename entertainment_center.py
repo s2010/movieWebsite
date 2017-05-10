@@ -12,15 +12,28 @@ avatar = media.Movie("Avatar", "A marin on an alien planet",
                      "https://www.movieposter.com/posters/archive/main/101/MPW-50968",
                      "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
 
+minions = media.Movie("Minions", "Inside Out a comedy-adventure set inside the mind of an 11-year old",
+                     "http://www.impawards.com/2015/posters/minions.jpg",
+                     "https://www.youtube.com/watch?v=eisKxhjBnZ0&spfreload=10")
+
 inside_out = media.Movie("Inside out", "Inside Out a comedy-adventure set inside the mind of an 11-year old",
-                     "https://www.google.com.sa/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi4xt2p3NPTAhVCRhQKHUTaArgQjRwIBw&url=http%3A%2F%2Fcollider.com%2Finside-out-french-posters-cannes-film-festival%2F&psig=AFQjCNHtC79IhkmXLRG61EzhsR4FwJ4ZaQ&ust=1493900805649187",
+                     "http://www.impawards.com/2015/posters/inside_out_ver10_xlg.jpg",
                      "https://www.youtube.com/watch?v=_MC3XuMvsDI")
+
+finding_dory = media.Movie("Finding Dory", "Inside Out a comedy-adventure set inside the mind of an 11-year old",
+                     "http://www.impawards.com/2016/posters/finding_dory_ver8.jpg",
+                     "https://www.youtube.com/watch?v=_MC3XuMvsDI")
+
+boss = media.Movie("The Boss", "Inside Out a comedy-adventure set inside the mind of an 11-year old",
+                     "http://www.impawards.com/2016/posters/boss.jpg",
+                     "https://www.youtube.com/watch?v=yakeigyf0vc")
+
 
 #print(avatar.storyline)
 #avatar.show_trailer()
 
-movies = [toy_story,avatar,inside_out]
-#fresh_tomatoes.open_movies_page(movies)
+movies = [toy_story,avatar,minions, inside_out, finding_dory, boss]
+fresh_tomatoes.open_movies_page(movies)
 #print(media.Movie.VALID_RATINGS)
-print(media.Movie.__name__)
-print(media.Movie.__module__)
+#print(media.Movie.__name__)
+#print(media.Movie.__module__)

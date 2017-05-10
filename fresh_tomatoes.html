@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Fresh Tomatoes!</title>
+    <title>My Favorite Movies Gallery!</title>
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
@@ -11,8 +11,62 @@
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
-        body {
-            padding-top: 80px;
+       body {
+            background-color: #fff;
+            min-height: 100vh;
+            font: normal 16px sans-serif;
+        }
+
+        .gallery-container h1 {
+            text-align: center;
+            margin-top: 70px;
+            font-family: 'Droid Sans', sans-serif;
+            font-weight: bold;
+            color: #58595a;
+        }
+
+        .gallery-container p.page-description {
+            text-align: center;
+            margin: 30px auto;
+            font-size: 18px;
+            color: #85878c;
+        }
+
+        /* Styles for the gallery */
+
+        .tz-gallery {
+            padding: 40px;
+        }
+
+        .tz-gallery .thumbnail {
+            padding: 0;
+            margin-bottom: 30px;
+            border: none;
+        }
+
+        .tz-gallery img {
+            border-radius: 2px;
+        }
+
+        .tz-gallery .caption{
+            padding: 26px 30px;
+            text-align: center;
+        }
+
+        .tz-gallery .caption h3 {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .tz-gallery .caption p {
+            font-size: 12px;
+            color: #7b7d7d;
+            margin: 0;
+        }
+
+        .baguetteBox-button {
+            background-color: transparent !important;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -93,7 +147,7 @@
     </div>
 
     <!-- Main Page Content -->
-    <div class="container">
+<!--     <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
@@ -101,24 +155,45 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="KYz2wyBy3kc" data-toggle="modal" data-target="#trailer">
-    <img src="http://vignette4.wikia.nocookie.net/disney/images/4/4c/Toy-story-movie-posters-4.jpg/revision/latest?cb=20140816182710" width="220" height="342">
-    <h2>Toy Story</h2>
-</div>
+    </div> -->
+    <!--  -->
+    <div class="container gallery-container">
 
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="cRdxXPV9GNQ" data-toggle="modal" data-target="#trailer">
-    <img src="https://www.movieposter.com/posters/archive/main/101/MPW-50968" width="220" height="342">
-    <h2>Avatar</h2>
-</div>
+        <h1>My Favorite Movies Gallery</h1>
 
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="_MC3XuMvsDI" data-toggle="modal" data-target="#trailer">
-    <img src="https://www.google.com.sa/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi4xt2p3NPTAhVCRhQKHUTaArgQjRwIBw&url=http%3A%2F%2Fcollider.com%2Finside-out-french-posters-cannes-film-festival%2F&psig=AFQjCNHtC79IhkmXLRG61EzhsR4FwJ4ZaQ&ust=1493900805649187" width="220" height="342">
-    <h2>Inside out</h2>
-</div>
+        <p class="page-description text-center">A Gallery with all of my favorate movies and thier trailers</p>
 
+        <div class="container">
+        <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="KYz2wyBy3kc" data-toggle="modal" data-target="#trailer">
+            <img src="http://vignette4.wikia.nocookie.net/disney/images/4/4c/Toy-story-movie-posters-4.jpg/revision/latest?cb=20140816182710" width="220" height="342">
+            <h2>Toy Story</h2>
+        </div>
+
+        <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="cRdxXPV9GNQ" data-toggle="modal" data-target="#trailer">
+            <img src="https://www.movieposter.com/posters/archive/main/101/MPW-50968" width="220" height="342">
+            <h2>Avatar</h2>
+        </div>
+
+        <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="eisKxhjBnZ0" data-toggle="modal" data-target="#trailer">
+            <img src="http://www.impawards.com/2015/posters/minions.jpg" width="220" height="342">
+            <h2>Inside out</h2>
+        </div>
+
+        <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="_MC3XuMvsDI" data-toggle="modal" data-target="#trailer">
+            <img src="http://www.impawards.com/2015/posters/inside_out_ver10_xlg.jpg" width="220" height="342">
+            <h2>Inside out</h2>
+        </div>
+
+        <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="_MC3XuMvsDI" data-toggle="modal" data-target="#trailer">
+            <img src="http://www.impawards.com/2016/posters/finding_dory_ver8.jpg" width="220" height="342">
+            <h2>Inside out</h2>
+        </div>
+
+        <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="yakeigyf0vc" data-toggle="modal" data-target="#trailer">
+            <img src="http://www.impawards.com/2016/posters/boss.jpg" width="220" height="342">
+            <h2>Inside out</h2>
+        </div>
+      </div>
     </div>
   </body>
 </html>

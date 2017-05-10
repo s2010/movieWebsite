@@ -18,7 +18,61 @@ main_page_head = '''
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
-            padding-top: 80px;
+            background-color: #fff;
+            min-height: 100vh;
+            font: normal 16px sans-serif;
+        }
+        
+        .gallery-container h1 {
+            text-align: center;
+            margin-top: 70px;
+            font-family: 'Droid Sans', sans-serif;
+            font-weight: bold;
+            color: #58595a;
+        }
+
+        .gallery-container p.page-description {
+            text-align: center;
+            margin: 30px auto;
+            font-size: 18px;
+            color: #85878c;
+        }
+
+        /* Styles for the gallery */
+
+        .tz-gallery {
+            padding: 40px;
+        }
+
+        .tz-gallery .thumbnail {
+            padding: 0;
+            margin-bottom: 30px;
+            border: none;
+        }
+
+        .tz-gallery img {
+            border-radius: 2px;
+        }
+
+        .tz-gallery .caption{
+            padding: 26px 30px;
+            text-align: center;
+        }
+
+        .tz-gallery .caption h3 {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .tz-gallery .caption p {
+            font-size: 12px;
+            color: #7b7d7d;
+            margin: 0;
+        }
+
+        .baguetteBox-button {
+            background-color: transparent !important;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
